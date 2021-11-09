@@ -1,17 +1,331 @@
 {extends file = "index.tpl"}
 {block name="meta"}
-    <link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/slider/css/jquery.carousel-line-arrow.css"/>
-    <link rel="stylesheet" href="//{$smarty.server.SERVER_NAME}/assets/slider/css/style.css"/>
-    <style>
-        {literal}
-        .wrapper {
-            max-height: 425px !important;
-            overflow: auto}
-        {/literal}
-    </style>
+
 {/block}
 {block name="body"}
-    {include file="small-bar.tpl"}
+    <!-- slider-area -->
+    <section class="home-seven-slider">
+        <div class="h7-slider-active">
+            <div class="h7-slider-item" data-background="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_bg01.jpg">
+                <div class="container custom-container-two">
+                    <div class="h7-slider-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-xl-7 col-lg-7 order-0 order-lg-2">
+                                <div class="h7-slider-img">
+                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_img01.png" alt="">
+                                    <div class="product-tooltip" style="left: 47%; top: 25%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product01.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Chair</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-tooltip" style="left: 16%; top: 26%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product02.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Lamp</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5">
+                                <div class="h7-slider-content">
+                                    <span class="sub-title" data-animation-in="fadeInUpBig" data-delay-in=".2" data-duration-in="1.5">new arrival</span>
+                                    <h2 class="title" data-animation-in="fadeInUpBig" data-delay-in=".4" data-duration-in="1.5">New indoor top deal <span>!</span></h2>
+                                    <p data-animation-in="fadeInUpBig" data-delay-in=".6" data-duration-in="1.5">Get up to 50% off Today Only</p>
+                                    <a href="shop-sidebar.html" class="btn" data-animation-in="fadeInUpBig" data-delay-in=".8" data-duration-in="1.5">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overlay-text">New Season</div>
+                    </div>
+                </div>
+            </div>
+            <div class="h7-slider-item" data-background="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_bg02.jpg">
+                <div class="container custom-container-two">
+                    <div class="h7-slider-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-xl-7 col-lg-7 order-0 order-lg-2">
+                                <div class="h7-slider-img">
+                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_img02.png" alt="">
+                                    <div class="product-tooltip" style="left: 47%; top: 38%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product01.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Chair</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-tooltip" style="left: 8%; top: 60%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product02.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Lamp</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5">
+                                <div class="h7-slider-content">
+                                    <span class="sub-title" data-animation-in="fadeInUpBig" data-delay-in=".2" data-duration-in="1.5">new arrival</span>
+                                    <h2 class="title" data-animation-in="fadeInUpBig" data-delay-in=".4" data-duration-in="1.5">Similar Sofa top deal <span>!</span></h2>
+                                    <p data-animation-in="fadeInUpBig" data-delay-in=".6" data-duration-in="1.5">Get up to 50% off Today Only</p>
+                                    <a href="shop-sidebar.html" class="btn" data-animation-in="fadeInUpBig" data-delay-in=".8" data-duration-in="1.5">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h7-slider-item" data-background="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_bg03.jpg">
+                <div class="container custom-container-two">
+                    <div class="h7-slider-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-xl-7 col-lg-7 order-0 order-lg-2">
+                                <div class="h7-slider-img">
+                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/slider/h7_slider_img03.png" alt="">
+                                    <div class="product-tooltip" style="left: 26%; top: 20%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product01.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Chair</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-tooltip" style="right: 15%; top: 20%;">
+                                        <div class="tooltip-btn"></div>
+                                        <div class="features-product-item product-tooltip-item right">
+                                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                                            <div class="features-product-thumb">
+                                                <a href="shop-details.html">
+                                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/product/tooltip_product02.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="features-product-content">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <h5><a href="shop-details.html">Exclusive Lamp</a></h5>
+                                                <p class="price">$45.00</p>
+                                                <div class="features-product-bottom">
+                                                    <ul>
+                                                        <li class="color-option">
+                                                            <span class="gray"></span>
+                                                            <span class="cyan"></span>
+                                                            <span class="orange"></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="features-product-cart"><a href="cart.html">add to cart</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5">
+                                <div class="h7-slider-content">
+                                    <span class="sub-title" data-animation-in="fadeInUpBig" data-delay-in=".2" data-duration-in="1.5">new arrival</span>
+                                    <h2 class="title" data-animation-in="fadeInUpBig" data-delay-in=".4" data-duration-in="1.5">New Chair top deal <span>!</span></h2>
+                                    <p data-animation-in="fadeInUpBig" data-delay-in=".6" data-duration-in="1.5">Get up to 50% off Today Only</p>
+                                    <a href="shop-sidebar.html" class="btn" data-animation-in="fadeInUpBig" data-delay-in=".8" data-duration-in="1.5">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider-area-end -->
+
+    <!-- slider-bottom-product -->
+    <section class="h7-slider-bottom-product pt-20">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                {foreach $featured_products item=list name=featured_1}
+                    {if $smarty.foreach.featured_1.index == 4}
+                        {break}
+                    {/if}
+                    <div class="col-xl-3 col-md-6">
+                        <div class="h7s-bottom-item mb-20">
+                            <img style="width:455px; height: 280px; object-fit: contain;" src="//{$smarty.server.SERVER_NAME}/media/products_thumbnails/{$list.feature_photo}" alt="">
+                            <div class="content">
+                                <h5><a href="//{$smarty.server.SERVER_NAME}/product/{$list.url}" style="-webkit-text-fill-color: white; -webkit-text-stroke-width: 1px;  -webkit-text-stroke-color: black;">{$list.name}</a></h5>
+                                <a href="//{$smarty.server.SERVER_NAME}/product/{$list.url}" class="btn">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                {/foreach}
+            </div>
+        </div>
+    </section>
+    <!-- slider-bottom-product-end -->
+
+    <!-- cat-area -->
+    <section class="category-area pt-80 pb-45">
+        <div class="container">
+            <div class="cat-title-line">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="cat-section-title text-center">
+                            <div class="icon"><img src="//{$smarty.server.SERVER_NAME}/assets/img/logo/logo.png" alt=""></div>
+                            <span class="sub-title">Choose a brand</span>
+                            <h2 class="title">Where class is class, Quality is Power
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                {foreach $categories item=list name=categories_1}
+                    {if $smarty.foreach.categories_1.index == 6}
+                        {break}
+                    {/if}
+                    <div class="col">
+                        <div class="shop-cat-item">
+                            <a href="//{$smarty.server.SERVER_NAME}/{$list.url}">
+                                <div class="icon">
+                                    <img src="//{$smarty.server.SERVER_NAME}/assets/img/icon/s_cat_icon01.png" alt="">
+                                </div>
+                                <p>{$list.category} <span>( 9 Items )</span></p>
+                            </a>
+                        </div>
+                    </div>
+                {/foreach}
+            </div>
+        </div>
+    </section>
+    <!-- cat-area-end -->
+
+
     <div class="home-slider">
         <div class="container">
             <div class="row">
